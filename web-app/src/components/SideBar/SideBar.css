@@ -1,0 +1,26 @@
+.Sidebar {
+    flex-shrink: 0;
+    flex: 1;
+    box-sizing: border-box;
+    width: 250px;
+    /* background-color: var(--main-color); không gỡ comment
+    color: var(--second-color); không gỡ comment */
+    position: sticky;
+    top: 16px;
+    height: calc(100vh - 66px - 16px);
+    margin-left: 16px;
+    align-self: start;
+    z-index: 101;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    overflow-y: auto;
+    border-radius: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.custom-menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}

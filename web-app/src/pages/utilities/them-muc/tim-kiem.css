@@ -1,0 +1,40 @@
+.search-card {
+  max-width: 600px; /* tăng rộng hơn */
+  margin: 0 auto;
+  border-radius: 16px; /* bo góc lớn hơn */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  padding: 24px; /* thêm padding cho rộng rãi */
+  margin: 20px auto; /* căn giữa và thêm khoảng cách trên dưới */
+}
+
+.search-item {
+  display: flex;
+  flex-direction: column;
+  gap: 28px; /* tăng khoảng cách giữa các item */
+}
+
+.large-label {
+  display: block;
+  font-size: 20px; /* chữ to hơn */
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.search-item-fieldset {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  padding: 16px 20px; /* tăng padding cho rộng rãi */
+  font-size: 18px; /* chữ trong fieldset cũng to hơn */
+}
+
+.search-button-wrapper {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.search-button-wrapper button {
+  font-size: 18px;
+  padding: 10px 24px;
+  border-radius: 8px;
+}

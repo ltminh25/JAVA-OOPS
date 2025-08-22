@@ -1,0 +1,22 @@
+
+.AppHeader {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    padding: 0px 5px 0px 5px;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1)    ;
+    z-index: 500;
+}
+
+.header-icons{
+    position: absolute ;
+    top: 5px;   /* cách mép trên 5px */
+    right: 10px; /* cách mép phải 10px */
+    display: flex;
+    gap: 30px; /* thêm khoảng cách giữa icon nếu cần */
+}
