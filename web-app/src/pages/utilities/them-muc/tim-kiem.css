@@ -1,10 +1,9 @@
 .search-card {
-  max-width: 600px; /* tăng rộng hơn */
+  max-width: 700px; /* tăng rộng hơn */
   margin: 0 auto;
   border-radius: 16px; /* bo góc lớn hơn */
-  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
   padding: 24px; /* thêm padding cho rộng rãi */
-  margin: 20px auto; /* căn giữa và thêm khoảng cách trên dưới */
+  margin: 20px 70px; /* căn giữa và thêm khoảng cách trên dưới */
 }
 
 .search-item {
@@ -30,7 +29,7 @@
 
 .search-button-wrapper {
   margin-top: 16px;
-  text-align: center;
+  text-align: start;
 }
 
 .search-button-wrapper button {

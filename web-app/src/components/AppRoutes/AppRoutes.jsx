@@ -13,9 +13,6 @@ function AppRoutes() {
         <Routes>
             <Route index element={<div>Homepage</div>} />
             <Route path="/add-item" element={<AddItem />} />
-            <Route path="/add-item/search" element={<SearchItem />} />
-            <Route path="/add-item/manual-entry" element={<ManualEntry />} />
-            <Route path="/add-item/csv-import" element={<CSVImport />} />
         </Routes>
     );
 }

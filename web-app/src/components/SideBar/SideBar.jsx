@@ -67,20 +67,19 @@ function SideBar() {
     <>
 
       <Sider
-        className="Sidebar"
-        collapsible 
-        collapsed={collapsed} 
+        className="Sidebar-form"
+        collapsible
+        collapsed={collapsed}
         onCollapse={setCollapsed}
-        onBreakpoint={(brokenState) => {
-          setBroken(brokenState);
-          if (brokenState) {
-            setCollapsed(true);
-          }
+        breakpoint="md"          // < 768px coi là “broken”
+        collapsedWidth={60}      // khi collapse sẽ còn 60px
+        onBreakpoint={(broken) => {
+          // Thu nhỏ khi vào mobile, tự mở lại khi quay về desktop
+          setCollapsed(broken);
         }}
         trigger={null}
-        width= {250}
+        width={250}
         style={{
-          display:  "",
           backgroundColor: "white",
           border: "1px solid darkgray",
           overflow: "hidden",
